@@ -25,3 +25,49 @@ Switched to a new branch 'atividade-mapa'
 PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git status
 On branch atividade-mapa
 nothing to commit, working tree clean
+
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git add .
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git commit -m "adicionando arquivo de saidas"
+[atividade-mapa b4c46ab] adicionando arquivo de saidas
+ 1 file changed, 27 insertions(+)
+ create mode 100644 saidas.txt
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git push origin atividade-mapa
+
+Enumerating objects: 4, done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 872 bytes | 872.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'atividade-mapa' on GitHub by visiting:
+remote:      https://github.com/charlesilva23/mapatopicos/pull/new/atividade-mapa
+remote:
+To https://github.com/charlesilva23/mapatopicos.git
+ * [new branch]      atividade-mapa -> atividade-mapa
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> atividade-mapa
+
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git checkout main
+Switched to branch 'main'
+
+
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git pull origin main
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git merge atividade-mapa      
+Updating 782ecc5..b4c46ab
+Fast-forward
+ 1 file changed, 27 insertions(+)
+
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git merge atividade-mapa
+Already up to date.
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/charlesilva23/mapatopicos.git
+   782ecc5..b4c46ab  main -> main
