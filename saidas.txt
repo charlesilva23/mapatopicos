@@ -1,0 +1,27 @@
+Olá, Mundo!
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> javac HelloWorld.java       
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> java HelloWorld
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git init
+Initialized empty Git repository in C:/Users/charl/OneDrive/Desktop/Nova pasta/mapa topicos/.git/
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git add .
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git commit -m "primeiro comm[master (root-commit) 782ecc5] primeiro commit
+ 2 files changed, 5 insertions(+)
+ create mode 100644 HelloWorld.class
+ create mode 100644 HelloWorld.java
+
+
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git branch -M main
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git remote add origin https://github.com/charlesilva23/mapatopicos.git     
+Delta compression using up to 4 threads
+Writing objects: 100% (4/4), 659 bytes | 659.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/charlesilva23/mapatopicos.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git pull
+Already up to date.
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git checkout -b atividade-mapa
+Switched to a new branch 'atividade-mapa'
+PS C:\Users\charl\OneDrive\Desktop\Nova pasta\mapa topicos> git status
+On branch atividade-mapa
+nothing to commit, working tree clean
